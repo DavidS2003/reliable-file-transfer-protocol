@@ -1,0 +1,3 @@
+This is a text file to test one of my networking projects.
+If you are reading this then this file was successfully opened.
+Nice job!
