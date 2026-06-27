@@ -176,18 +176,14 @@ python mutcpc.py 127.0.0.1 5000 image.jpg > image.jpg
 
 ## Screenshots
 
-### Three-Way Handshake
-
-(Add screenshot)
-
 ### Successful File Transfer
 
-(Add screenshot)
+![Successful File Transfer](Screenshots/Successful_Transfer.png)
 
 ### Packet Loss and Retransmission
 
-(Add screenshot)
+![Packet Loss and Retransmission](Screenshots/Packet_Retransmission.png)
 
 ### Bit Error Detection
 
-(Add screenshot)
+![Bit Error Detection](Screenshots/Checksum_Error_Detection.png)
