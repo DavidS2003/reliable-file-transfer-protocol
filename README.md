@@ -128,7 +128,10 @@ Unexpected packets are discarded.
 ```bash
 python mutcps.py PORT DROPPROB BITERRPROB
 ```
-
+or
+```bash
+python3 mutcps.py PORT DROPPROB BITERRPROB
+```
 Example:
 
 ```bash
@@ -144,7 +147,10 @@ Display file contents:
 ```bash
 python mutcpc.py 127.0.0.1 5000 example.txt
 ```
-
+or
+```bash
+python3 mutcpc.py 127.0.0.1 5000 example.txt
+```
 Save output to disk:
 
 ```bash
