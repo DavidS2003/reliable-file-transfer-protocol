@@ -1,7 +1,7 @@
 import socket
 from mutcp import *
 import random
-import sys
+import sys 
 
 if len(sys.argv) < 4:
     print('enter an ip, port, and filename', file=sys.stderr)
