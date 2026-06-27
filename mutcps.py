@@ -98,7 +98,7 @@ while True:
                             #sock.sendto(fin_pkt, addr)
                             unreliable_send(sock, fin_pkt, addr, dropprob, biterrprob)
                             break
-                        
+                sock.settimeout(None)
             
             except FileNotFoundError:
                 print("File not found", file=sys.stderr)

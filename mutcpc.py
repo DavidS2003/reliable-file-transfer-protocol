@@ -24,7 +24,7 @@ data, addr = sock.recvfrom(4096)
 print("SYN-ACK recieved", file=sys.stderr)
 
 while not verify_checksum(data):
-    print("Corrupted packet dropped. Send a new SYN-ACK", file=sys.stderr)
+    print("Corrupted packet dropped.", file=sys.stderr)
     data, addr = sock.recvfrom(4096)
 
 pkt = parse_packet(data)
